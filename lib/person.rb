@@ -7,6 +7,17 @@ class Person
     @name = name
     @happiness = 5
   end
+
+  def go_on_a_date(person, match)
+    if match
+      self.happiness += 1
+      person.happiness += 1
+    else
+      self.happiness -= 1
+      person.happiness -= 1
+    end
+  end
+  
 end
 #############
 
