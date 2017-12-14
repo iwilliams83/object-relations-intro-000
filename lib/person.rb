@@ -1,7 +1,7 @@
 #code along here!
 class Person
 
-  attr_accessor :name, :happiness
+  attr_accessor :name, :happiness, :partner
 
   def initialize(name)
     @name = name
@@ -16,6 +16,11 @@ class Person
       self.happiness -= 1
       person.happiness -= 1
     end
+  end
+
+  def get_married(person)
+    self.partner = person
+    person.partner = self
   end
 
 end
