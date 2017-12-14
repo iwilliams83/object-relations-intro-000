@@ -1,5 +1,12 @@
 #code along here!
+class Person
 
+  attr_accessor :name, :happiness
+
+  def initialize(name)
+    @name = name
+    @happiness = 5
+  end
 
 #############
 
@@ -16,6 +23,3 @@
 #beyonce.get_married(jayz)
 #puts "Beyonce's partner is #{beyonce.partner.name}"
 #puts "Jay-Z's partner is #{jayz.partner.name}"
-
-
-
