@@ -36,6 +36,6 @@ puts jayz.happiness
 
 #When your tests pertaining to the second code along are passing, un-comment out the below!
 
-#beyonce.get_married(jayz)
-#puts "Beyonce's partner is #{beyonce.partner.name}"
-#puts "Jay-Z's partner is #{jayz.partner.name}"
+beyonce.get_married(jayz)
+puts "Beyonce's partner is #{beyonce.partner.name}"
+puts "Jay-Z's partner is #{jayz.partner.name}"
