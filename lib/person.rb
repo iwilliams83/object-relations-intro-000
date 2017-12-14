@@ -7,7 +7,7 @@ class Person
     @name = name
     @happiness = 5
   end
-
+end
 #############
 
 #When your tests pertaining to the first code along are passing, un-comment out the below!
