@@ -17,7 +17,7 @@ class Person
       person.happiness -= 1
     end
   end
-  
+
 end
 #############
 
